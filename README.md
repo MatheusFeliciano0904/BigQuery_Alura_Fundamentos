@@ -1,4 +1,4 @@
-EXERCÍCIO 1  - CTE (Common Table Expression)
+EXERCÍCIO 1  - Condition
 
 ```
 Crie um relatório de ranking de vendas por produto e vendedor, comparando o realizado contra
