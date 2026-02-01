@@ -1,7 +1,9 @@
 EXERCÍCIO 1  - CTE (Common Table Expression)
 
 ```
-Crie um relatório de ranking de vendas por produto e vendedor, comparando o realizado contra a meta anual. O resultado deve mostrar o nome do vendedor, o produto, o ano, a quantidade vendida, a meta, o status ('Bom' ou 'Ruim') e a porcentagem de performance
+Crie um relatório de ranking de vendas por produto e vendedor, comparando o realizado contra a meta anual.
+O resultado deve mostrar o nome do vendedor, o produto, o ano, a quantidade vendida, a meta,
+o status ('Bom' ou 'Ruim') e a porcentagem de performance
 
 ```
 
