@@ -1,9 +1,9 @@
 EXERCÍCIO 1  - CTE (Common Table Expression)
 
 ```
-Crie um relatório de ranking de vendas por produto e vendedor, comparando o realizado contra a meta anual.
-O resultado deve mostrar o nome do vendedor, o produto, o ano, a quantidade vendida, a meta,
-o status ('Bom' ou 'Ruim') e a porcentagem de performance
+Crie um relatório de ranking de vendas por produto e vendedor, comparando o realizado contra
+a meta anual.O resultado deve mostrar o nome do vendedor, o produto, o ano, a quantidade
+vendida, a meta, o status ('Bom' ou 'Ruim') e a porcentagem de performance
 
 ```
 
@@ -13,7 +13,9 @@ EXERCÍCIO 2  - CTE (Common Table Expression)
 
 ```
 
-Escreva uma query no BigQuery que calcule o faturamento por cliente em 2021, gere um ranking por faturamento, calcule o total geral de vendas e o percentual de participação de cada cliente usando CTEs e funções analíticas
+Escreva uma query no BigQuery que calcule o faturamento por cliente em 2021,
+gere um ranking por faturamento, calcule o total geral de vendas e o percentual
+ de participação de cada cliente usando CTEs e funções analíticas
 
 
 ```
@@ -24,11 +26,13 @@ EXERCÍCIO 3  - ARRAY_AGG & JOIN
 
 Vamos então praticar?
 
-Crie uma consulta CTE com o nome de total_faturamento. Esta consulta deve nos dar o valor do faturamento dentro do ano de 2021 por nome do cliente.
+Crie uma consulta CTE com o nome de total_faturamento. Esta consulta deve nos dar
+o valor do faturamento dentro do ano de 2021 por nome do cliente.
 Dicas:
 
 Faça um INNER JOIN entre a tabela de vendas e de clientes pelo campo id_cliente;
-Na hora de fazer a igualdade preste a atenção porque os campos id_cliente da tabela de vendas e clientes são de tipos diferentes;
+Na hora de fazer a igualdade preste a atenção porque os campos id_cliente da
+tabela de vendas e clientes são de tipos diferentes;
 Faça uma agregação do faturamento por soma multiplicando quantidade com preco;
 Filtre os dados pelo campo data extraindo o ano e igualando ao valor de 2021.
 
